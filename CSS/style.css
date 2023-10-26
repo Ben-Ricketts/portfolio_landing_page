@@ -1,3 +1,6 @@
+@import url(./typography.css);
+@import url(./profilepicture.css);
+
 body {
   background-image: url("../images/new_background.jpg");
   background-repeat: no-repeat;
@@ -7,7 +10,7 @@ body {
 }
 img {
   height: 110%;
-  width: 100%;
+  width: auto;
   margin-top: 0.7%;
 }
 
@@ -32,18 +35,22 @@ img {
 
 .row {
   display: flex;
+  justify-content: space-between;
 }
-
-.paragraph {
+/* .paragraph {
+  width: 50%;
+}
+.paragraph p {
   width: 40%;
   color: white;
   text-transform: capitalize;
   font-size: 450%;
   margin-left: 50%;
   margin-top: 15%;
-}
+  min-width: 40%;
+} */
 
-.pic--Container {
+/* .pic--Container {
   position: relative;
   display: flex;
   justify-content: right;
@@ -52,6 +59,10 @@ img {
   margin-right: 10%;
   margin-top: 5%;
   margin-left: 10%;
+}
+
+.pic--Container img {
+  max-width: 100%;
 }
 
 .pic--Container .pic--Hexagon {
@@ -95,9 +106,9 @@ img {
 
 .pic--Container .pic--Hexagon:hover .pic--Shape {
   transform: translateY(-30px);
-}
+} */
 .icons {
-  margin-left: 26%;
+  margin-left: 27%;
 }
 .icons i {
   font-size: 50px;
@@ -109,7 +120,7 @@ img {
 .btn {
   border-radius: 0.3rem;
   text-transform: capitalize;
-  margin-left: 53%;
+  margin-left: 55%;
   font-size: 250%;
   padding: 0.8%;
   font-family: "Poppins", sans-serif;
