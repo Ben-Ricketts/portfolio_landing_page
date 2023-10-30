@@ -1,12 +1,6 @@
 .pic--Container {
-  position: relative;
-  display: flex;
-  justify-content: right;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-right: 20%;
-  margin-top: 5%;
-  margin-left: 10%;
+  display: inline-block;
+  top: 0;
 }
 
 .pic--Container img {

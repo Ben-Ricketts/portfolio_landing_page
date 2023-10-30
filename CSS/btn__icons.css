@@ -1,0 +1,24 @@
+.icons {
+  margin-left: 31rem;
+}
+.icons i {
+  font-size: 50px;
+  margin-right: 2%;
+  margin-top: 6%;
+  color: white;
+}
+
+.btn {
+  border-radius: 0.3rem;
+  text-transform: capitalize;
+  margin-left: 6rem;
+  font-size: 250%;
+  padding: 0.8%;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(220, 181, 110);
+  color: white;
+  -webkit-text-stroke: 0.001em black;
+}
+.btn:hover {
+  cursor: pointer;
+}

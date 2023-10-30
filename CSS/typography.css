@@ -1,8 +1,12 @@
 .paragraph p {
-  width: 40%;
   color: white;
   text-transform: capitalize;
-  font-size: 600%;
-  margin-left: 28rem;
-  margin-top: 10%;
+  font-size: 6rem;
+}
+
+.paragraph {
+  display: inline-block;
+  width: 40%;
+  margin-right: 5rem;
+  margin-left: 25rem;
 }
