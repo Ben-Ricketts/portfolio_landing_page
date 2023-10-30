@@ -3,15 +3,10 @@
   top: 0;
 }
 
-.pic--Container img {
-  max-width: 100%;
-}
-
 .pic--Container .pic--Hexagon {
   position: relative;
   width: 350px;
   height: 400px;
-  margin: 50px 20px 70px;
 }
 
 .pic--Container .pic--Hexagon .pic--Shape {
